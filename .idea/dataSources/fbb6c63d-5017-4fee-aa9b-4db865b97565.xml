@@ -1,0 +1,3211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mszpyrka_a@mssql.iisg.agh.edu.pl">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.4">
+    <root id="1">
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="mszpyrka_a">
+      <ObjectId>97</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="blepiarc_a">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Northwind">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="9" parent="1" name="library">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="10" parent="1" name="joindb">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="11" parent="1" name="pdyrlaga_a">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="12" parent="1" name="tokasprz_a">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="13" parent="1" name="mmicek_a">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="14" parent="1" name="sczarny_a">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="15" parent="1" name="bgliwa_c">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="16" parent="1" name="ecupial_a">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="17" parent="1" name="mcudak_a">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="18" parent="1" name="mpacia_a">
+      <ObjectId>16</ObjectId>
+    </database>
+    <database id="19" parent="1" name="pswedrak_a">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="20" parent="1" name="mdronski_a">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="21" parent="1" name="wreczek_a">
+      <ObjectId>19</ObjectId>
+    </database>
+    <database id="22" parent="1" name="wkoza_a">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="23" parent="1" name="lzajac_a">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="24" parent="1" name="jakgwozd_a">
+      <ObjectId>22</ObjectId>
+    </database>
+    <database id="25" parent="1" name="slazewsk_a">
+      <ObjectId>23</ObjectId>
+    </database>
+    <database id="26" parent="1" name="pzeller_a">
+      <ObjectId>24</ObjectId>
+    </database>
+    <database id="27" parent="1" name="pjanczyk_a">
+      <ObjectId>25</ObjectId>
+    </database>
+    <database id="28" parent="1" name="wgeisler_a">
+      <ObjectId>26</ObjectId>
+    </database>
+    <database id="29" parent="1" name="ajopek_a">
+      <ObjectId>27</ObjectId>
+    </database>
+    <database id="30" parent="1" name="mbuta_a">
+      <ObjectId>28</ObjectId>
+    </database>
+    <database id="31" parent="1" name="mosadnik_a">
+      <ObjectId>29</ObjectId>
+    </database>
+    <database id="32" parent="1" name="jdutkiew_a">
+      <ObjectId>30</ObjectId>
+    </database>
+    <database id="33" parent="1" name="mmalencz_a">
+      <ObjectId>31</ObjectId>
+    </database>
+    <database id="34" parent="1" name="krkrakow_a">
+      <ObjectId>32</ObjectId>
+    </database>
+    <database id="35" parent="1" name="ljaneczk_a">
+      <ObjectId>33</ObjectId>
+    </database>
+    <database id="36" parent="1" name="aszot_a">
+      <ObjectId>34</ObjectId>
+    </database>
+    <database id="37" parent="1" name="lsocha_a">
+      <ObjectId>35</ObjectId>
+    </database>
+    <database id="38" parent="1" name="piszczer_a">
+      <ObjectId>36</ObjectId>
+    </database>
+    <database id="39" parent="1" name="krzonca_a">
+      <ObjectId>37</ObjectId>
+    </database>
+    <database id="40" parent="1" name="kbalazy_a">
+      <ObjectId>38</ObjectId>
+    </database>
+    <database id="41" parent="1" name="jrodzon_a">
+      <ObjectId>39</ObjectId>
+    </database>
+    <database id="42" parent="1" name="pcwiklic_a">
+      <ObjectId>40</ObjectId>
+    </database>
+    <database id="43" parent="1" name="ppeczek_a">
+      <ObjectId>41</ObjectId>
+    </database>
+    <database id="44" parent="1" name="mzadora_a">
+      <ObjectId>42</ObjectId>
+    </database>
+    <database id="45" parent="1" name="mpniak_a">
+      <ObjectId>43</ObjectId>
+    </database>
+    <database id="46" parent="1" name="adszczer_a">
+      <ObjectId>44</ObjectId>
+    </database>
+    <database id="47" parent="1" name="grozak_a">
+      <ObjectId>45</ObjectId>
+    </database>
+    <database id="48" parent="1" name="jjanowsk_a">
+      <ObjectId>46</ObjectId>
+    </database>
+    <database id="49" parent="1" name="mpniak_b">
+      <ObjectId>47</ObjectId>
+    </database>
+    <database id="50" parent="1" name="sjanecki_a">
+      <ObjectId>48</ObjectId>
+    </database>
+    <database id="51" parent="1" name="msavchen_a">
+      <ObjectId>49</ObjectId>
+    </database>
+    <database id="52" parent="1" name="kpiekarz_a">
+      <ObjectId>50</ObjectId>
+    </database>
+    <database id="53" parent="1" name="adrewnik_a">
+      <ObjectId>51</ObjectId>
+    </database>
+    <database id="54" parent="1" name="rdrabina_a">
+      <ObjectId>52</ObjectId>
+    </database>
+    <database id="55" parent="1" name="jbieniek_a">
+      <ObjectId>53</ObjectId>
+    </database>
+    <database id="56" parent="1" name="pmendroc_a">
+      <ObjectId>54</ObjectId>
+    </database>
+    <database id="57" parent="1" name="kmakiela_a">
+      <ObjectId>55</ObjectId>
+    </database>
+    <database id="58" parent="1" name="msosniak_a">
+      <ObjectId>56</ObjectId>
+    </database>
+    <database id="59" parent="1" name="pbukalsk_a">
+      <ObjectId>57</ObjectId>
+    </database>
+    <database id="60" parent="1" name="jkalfas_a">
+      <ObjectId>58</ObjectId>
+    </database>
+    <database id="61" parent="1" name="pawojtow_a">
+      <ObjectId>59</ObjectId>
+    </database>
+    <database id="62" parent="1" name="glippa_a">
+      <ObjectId>60</ObjectId>
+    </database>
+    <database id="63" parent="1" name="kdoleglo_a">
+      <ObjectId>61</ObjectId>
+    </database>
+    <database id="64" parent="1" name="kogrela_a">
+      <ObjectId>62</ObjectId>
+    </database>
+    <database id="65" parent="1" name="bstachur_a">
+      <ObjectId>63</ObjectId>
+    </database>
+    <database id="66" parent="1" name="gnowak_a">
+      <ObjectId>64</ObjectId>
+    </database>
+    <database id="67" parent="1" name="kajanda_a">
+      <ObjectId>65</ObjectId>
+    </database>
+    <database id="68" parent="1" name="fduczymi_a">
+      <ObjectId>66</ObjectId>
+    </database>
+    <database id="69" parent="1" name="aokas_a">
+      <ObjectId>67</ObjectId>
+    </database>
+    <database id="70" parent="1" name="aplacha_a">
+      <ObjectId>68</ObjectId>
+    </database>
+    <database id="71" parent="1" name="dkulma_a">
+      <ObjectId>69</ObjectId>
+    </database>
+    <database id="72" parent="1" name="jposlusz_a">
+      <ObjectId>70</ObjectId>
+    </database>
+    <database id="73" parent="1" name="lstanik_a">
+      <ObjectId>71</ObjectId>
+    </database>
+    <database id="74" parent="1" name="wklemens_a">
+      <ObjectId>72</ObjectId>
+    </database>
+    <database id="75" parent="1" name="gnowak_b">
+      <ObjectId>73</ObjectId>
+    </database>
+    <database id="76" parent="1" name="wbus_a">
+      <ObjectId>74</ObjectId>
+    </database>
+    <database id="77" parent="1" name="wbus_b">
+      <ObjectId>75</ObjectId>
+    </database>
+    <database id="78" parent="1" name="jgolda_a">
+      <ObjectId>76</ObjectId>
+    </database>
+    <database id="79" parent="1" name="lkulig_a">
+      <ObjectId>77</ObjectId>
+    </database>
+    <database id="80" parent="1" name="mklimows_a">
+      <ObjectId>78</ObjectId>
+    </database>
+    <database id="81" parent="1" name="wsus_a">
+      <ObjectId>79</ObjectId>
+    </database>
+    <database id="82" parent="1" name="swieczor_a">
+      <ObjectId>80</ObjectId>
+    </database>
+    <database id="83" parent="1" name="kzycinsk_a">
+      <ObjectId>81</ObjectId>
+    </database>
+    <database id="84" parent="1" name="kkadziel_a">
+      <ObjectId>82</ObjectId>
+    </database>
+    <database id="85" parent="1" name="skurdzie_a">
+      <ObjectId>83</ObjectId>
+    </database>
+    <database id="86" parent="1" name="kjarosz_a">
+      <ObjectId>84</ObjectId>
+    </database>
+    <database id="87" parent="1" name="pwojtys_a">
+      <ObjectId>85</ObjectId>
+    </database>
+    <database id="88" parent="1" name="rkuzicki_a">
+      <ObjectId>86</ObjectId>
+    </database>
+    <database id="89" parent="1" name="pawegrzy_a">
+      <ObjectId>87</ObjectId>
+    </database>
+    <database id="90" parent="1" name="msledz_a">
+      <ObjectId>88</ObjectId>
+    </database>
+    <database id="91" parent="1" name="mmandows_a">
+      <ObjectId>89</ObjectId>
+    </database>
+    <database id="92" parent="1" name="rkoziol_a">
+      <ObjectId>90</ObjectId>
+    </database>
+    <database id="93" parent="1" name="sjanikow_a">
+      <ObjectId>91</ObjectId>
+    </database>
+    <database id="94" parent="1" name="almazur_a">
+      <ObjectId>92</ObjectId>
+    </database>
+    <database id="95" parent="1" name="fdej_a">
+      <ObjectId>93</ObjectId>
+    </database>
+    <database id="96" parent="1" name="rcegiels_a">
+      <ObjectId>94</ObjectId>
+    </database>
+    <database id="97" parent="1" name="wwanczyk_a">
+      <ObjectId>95</ObjectId>
+    </database>
+    <database id="98" parent="1" name="lciechan_a">
+      <ObjectId>96</ObjectId>
+    </database>
+    <database id="99" parent="1" name="omasliuk_a">
+      <ObjectId>98</ObjectId>
+    </database>
+    <database id="100" parent="1" name="jjasek_a">
+      <ObjectId>99</ObjectId>
+    </database>
+    <database id="101" parent="1" name="kstopa_a">
+      <ObjectId>100</ObjectId>
+    </database>
+    <database id="102" parent="1" name="dwitek_a">
+      <ObjectId>101</ObjectId>
+    </database>
+    <database id="103" parent="1" name="rpych_a">
+      <ObjectId>102</ObjectId>
+    </database>
+    <database id="104" parent="1" name="jkapala_a">
+      <ObjectId>103</ObjectId>
+    </database>
+    <database id="105" parent="1" name="mszarek_a">
+      <ObjectId>104</ObjectId>
+    </database>
+    <database id="106" parent="1" name="mrudnik_a">
+      <ObjectId>105</ObjectId>
+    </database>
+    <database id="107" parent="1" name="kswierad_a">
+      <ObjectId>106</ObjectId>
+    </database>
+    <database id="108" parent="1" name="ptuduj_a">
+      <ObjectId>107</ObjectId>
+    </database>
+    <database id="109" parent="1" name="mzembol_a">
+      <ObjectId>108</ObjectId>
+    </database>
+    <database id="110" parent="1" name="gfrejek_a">
+      <ObjectId>109</ObjectId>
+    </database>
+    <database id="111" parent="1" name="kbak_a">
+      <ObjectId>110</ObjectId>
+    </database>
+    <database id="112" parent="1" name="mmucha_a">
+      <ObjectId>111</ObjectId>
+    </database>
+    <database id="113" parent="1" name="nkroczka_a">
+      <ObjectId>112</ObjectId>
+    </database>
+    <database id="114" parent="1" name="tratkows_a">
+      <ObjectId>113</ObjectId>
+    </database>
+    <database id="115" parent="1" name="jacekszd_a">
+      <ObjectId>114</ObjectId>
+    </database>
+    <database id="116" parent="1" name="wojtekmi_a">
+      <ObjectId>115</ObjectId>
+    </database>
+    <database id="117" parent="1" name="msoltysi_a">
+      <ObjectId>116</ObjectId>
+    </database>
+    <database id="118" parent="1" name="kkalecin_a">
+      <ObjectId>117</ObjectId>
+    </database>
+    <database id="119" parent="1" name="goskaras_a">
+      <ObjectId>118</ObjectId>
+    </database>
+    <database id="120" parent="1" name="azygmunt_b">
+      <ObjectId>119</ObjectId>
+    </database>
+    <database id="121" parent="1" name="kkmiecik_a">
+      <ObjectId>120</ObjectId>
+    </database>
+    <database id="122" parent="1" name="mmoskal_a">
+      <ObjectId>121</ObjectId>
+    </database>
+    <database id="123" parent="1" name="jpajor_a">
+      <ObjectId>122</ObjectId>
+    </database>
+    <database id="124" parent="1" name="wlewicki_a">
+      <ObjectId>123</ObjectId>
+    </database>
+    <database id="125" parent="1" name="amuron_a">
+      <ObjectId>124</ObjectId>
+    </database>
+    <database id="126" parent="1" name="wmusial_a">
+      <ObjectId>125</ObjectId>
+    </database>
+    <database id="127" parent="1" name="blatka_a">
+      <ObjectId>126</ObjectId>
+    </database>
+    <database id="128" parent="1" name="wsoczek_a">
+      <ObjectId>127</ObjectId>
+    </database>
+    <database id="129" parent="1" name="mstanisz_a">
+      <ObjectId>128</ObjectId>
+    </database>
+    <database id="130" parent="1" name="tmichals_a">
+      <ObjectId>129</ObjectId>
+    </database>
+    <database id="131" parent="1" name="pkardas_a">
+      <ObjectId>130</ObjectId>
+    </database>
+    <database id="132" parent="1" name="epietryg_a">
+      <ObjectId>131</ObjectId>
+    </database>
+    <database id="133" parent="1" name="mchkzr_a">
+      <ObjectId>132</ObjectId>
+    </database>
+    <database id="134" parent="1" name="borowiec_a">
+      <ObjectId>133</ObjectId>
+    </database>
+    <database id="135" parent="1" name="wojtekmi_b">
+      <ObjectId>134</ObjectId>
+    </database>
+    <database id="136" parent="1" name="jacekszd_b">
+      <ObjectId>135</ObjectId>
+    </database>
+    <database id="137" parent="1" name="szustak_a">
+      <ObjectId>136</ObjectId>
+    </database>
+    <database id="138" parent="1" name="tomekw_a">
+      <ObjectId>137</ObjectId>
+    </database>
+    <database id="139" parent="1" name="szustak_b">
+      <ObjectId>138</ObjectId>
+    </database>
+    <database id="140" parent="1" name="mraton_a">
+      <ObjectId>139</ObjectId>
+    </database>
+    <database id="141" parent="1" name="rozikjoa_a">
+      <ObjectId>140</ObjectId>
+    </database>
+    <database id="142" parent="1" name="pbartosi_a">
+      <ObjectId>141</ObjectId>
+    </database>
+    <database id="143" parent="1" name="msoltysi_b">
+      <ObjectId>142</ObjectId>
+    </database>
+    <database id="144" parent="1" name="ekielbas_a">
+      <ObjectId>143</ObjectId>
+    </database>
+    <database id="145" parent="1" name="tkowals_a">
+      <ObjectId>144</ObjectId>
+    </database>
+    <database id="146" parent="1" name="gmazur_a">
+      <ObjectId>145</ObjectId>
+    </database>
+    <database id="147" parent="1" name="kingajas_a">
+      <ObjectId>146</ObjectId>
+    </database>
+    <database id="148" parent="1" name="tomekw_b">
+      <ObjectId>147</ObjectId>
+    </database>
+    <database id="149" parent="1" name="ninakula_a">
+      <ObjectId>148</ObjectId>
+    </database>
+    <database id="150" parent="1" name="jasiocha_a">
+      <ObjectId>149</ObjectId>
+    </database>
+    <database id="151" parent="1" name="dmykhayl_a">
+      <ObjectId>150</ObjectId>
+    </database>
+    <database id="152" parent="1" name="ninakula_b">
+      <ObjectId>151</ObjectId>
+    </database>
+    <database id="153" parent="1" name="bluszcz_a">
+      <ObjectId>152</ObjectId>
+    </database>
+    <database id="154" parent="1" name="kakurek_a">
+      <ObjectId>153</ObjectId>
+    </database>
+    <database id="155" parent="1" name="kasiatok_a">
+      <ObjectId>154</ObjectId>
+    </database>
+    <database id="156" parent="1" name="tratkows_b">
+      <ObjectId>155</ObjectId>
+    </database>
+    <database id="157" parent="1" name="etrzcins_a">
+      <ObjectId>156</ObjectId>
+    </database>
+    <database id="158" parent="1" name="borek_a">
+      <ObjectId>157</ObjectId>
+    </database>
+    <database id="159" parent="1" name="tratkows_c">
+      <ObjectId>158</ObjectId>
+    </database>
+    <database id="160" parent="1" name="tbarcik_a">
+      <ObjectId>159</ObjectId>
+    </database>
+    <database id="161" parent="1" name="pikubica_a">
+      <ObjectId>160</ObjectId>
+    </database>
+    <database id="162" parent="1" name="epietryg_b">
+      <ObjectId>161</ObjectId>
+    </database>
+    <database id="163" parent="1" name="smoterjo_a">
+      <ObjectId>162</ObjectId>
+    </database>
+    <database id="164" parent="1" name="pblaszcz_a">
+      <ObjectId>163</ObjectId>
+    </database>
+    <database id="165" parent="1" name="kablaszc_a">
+      <ObjectId>164</ObjectId>
+    </database>
+    <database id="166" parent="1" name="pikubica_b">
+      <ObjectId>165</ObjectId>
+    </database>
+    <database id="167" parent="1" name="ksieja_a">
+      <ObjectId>166</ObjectId>
+    </database>
+    <database id="168" parent="1" name="ksieja_b">
+      <ObjectId>167</ObjectId>
+    </database>
+    <database id="169" parent="1" name="jkolocze_a">
+      <ObjectId>168</ObjectId>
+    </database>
+    <database id="170" parent="1" name="arek_a">
+      <ObjectId>169</ObjectId>
+    </database>
+    <database id="171" parent="1" name="tkowals_b">
+      <ObjectId>170</ObjectId>
+    </database>
+    <database id="172" parent="1" name="mmmiws_a">
+      <ObjectId>171</ObjectId>
+    </database>
+    <database id="173" parent="1" name="nkroczka_b">
+      <ObjectId>172</ObjectId>
+    </database>
+    <database id="174" parent="1" name="galeziow_a">
+      <ObjectId>173</ObjectId>
+    </database>
+    <database id="175" parent="1" name="pbartosi_b">
+      <ObjectId>174</ObjectId>
+    </database>
+    <database id="176" parent="1" name="jaszczep_a">
+      <ObjectId>175</ObjectId>
+    </database>
+    <database id="177" parent="1" name="ekielbas_b">
+      <ObjectId>176</ObjectId>
+    </database>
+    <database id="178" parent="1" name="ewamaczk_a">
+      <ObjectId>177</ObjectId>
+    </database>
+    <database id="179" parent="1" name="jasiocha_b">
+      <ObjectId>178</ObjectId>
+    </database>
+    <database id="180" parent="1" name="arturpys_a">
+      <ObjectId>179</ObjectId>
+    </database>
+    <database id="181" parent="1" name="arek_b">
+      <ObjectId>180</ObjectId>
+    </database>
+    <database id="182" parent="1" name="kingajas_b">
+      <ObjectId>181</ObjectId>
+    </database>
+    <database id="183" parent="1" name="joannap_a">
+      <ObjectId>182</ObjectId>
+    </database>
+    <database id="184" parent="1" name="bluszcz_b">
+      <ObjectId>183</ObjectId>
+    </database>
+    <database id="185" parent="1" name="etrzcins_b">
+      <ObjectId>184</ObjectId>
+    </database>
+    <database id="186" parent="1" name="galeziow_b">
+      <ObjectId>185</ObjectId>
+    </database>
+    <database id="187" parent="1" name="atargosz_a">
+      <ObjectId>186</ObjectId>
+    </database>
+    <database id="188" parent="1" name="dakowali_a">
+      <ObjectId>187</ObjectId>
+    </database>
+    <database id="189" parent="1" name="makasprz_a">
+      <ObjectId>188</ObjectId>
+    </database>
+    <database id="190" parent="1" name="kkalecin_b">
+      <ObjectId>189</ObjectId>
+    </database>
+    <database id="191" parent="1" name="kasiatok_b">
+      <ObjectId>190</ObjectId>
+    </database>
+    <database id="192" parent="1" name="mchkzr_b">
+      <ObjectId>191</ObjectId>
+    </database>
+    <database id="193" parent="1" name="goskaras_b">
+      <ObjectId>192</ObjectId>
+    </database>
+    <database id="194" parent="1" name="morlowsk_a">
+      <ObjectId>193</ObjectId>
+    </database>
+    <database id="195" parent="1" name="jadwiga_a">
+      <ObjectId>194</ObjectId>
+    </database>
+    <database id="196" parent="1" name="morlowsk_b">
+      <ObjectId>195</ObjectId>
+    </database>
+    <database id="197" parent="1" name="atargosz_b">
+      <ObjectId>196</ObjectId>
+    </database>
+    <database id="198" parent="1" name="makasprz_b">
+      <ObjectId>197</ObjectId>
+    </database>
+    <database id="199" parent="1" name="leniarte_a">
+      <ObjectId>198</ObjectId>
+    </database>
+    <database id="200" parent="1" name="tbarcik_b">
+      <ObjectId>199</ObjectId>
+    </database>
+    <database id="201" parent="1" name="jadwiga_b">
+      <ObjectId>200</ObjectId>
+    </database>
+    <database id="202" parent="1" name="kablaszc_b">
+      <ObjectId>201</ObjectId>
+    </database>
+    <database id="203" parent="1" name="mwodecki_a">
+      <ObjectId>202</ObjectId>
+    </database>
+    <database id="204" parent="1" name="mmalekadm_a">
+      <ObjectId>203</ObjectId>
+    </database>
+    <database id="205" parent="1" name="mjanowsk_a">
+      <ObjectId>204</ObjectId>
+    </database>
+    <database id="206" parent="1" name="rdrabina_b">
+      <ObjectId>205</ObjectId>
+    </database>
+    <database id="207" parent="1" name="rzemla_a">
+      <ObjectId>206</ObjectId>
+    </database>
+    <database id="208" parent="1" name="maciejku_a">
+      <ObjectId>207</ObjectId>
+    </database>
+    <database id="209" parent="1" name="wgruszka_a">
+      <ObjectId>220</ObjectId>
+    </database>
+    <database id="210" parent="1" name="kakurek_b">
+      <ObjectId>221</ObjectId>
+    </database>
+    <database id="211" parent="1" name="jstankie_a">
+      <ObjectId>222</ObjectId>
+    </database>
+    <database id="212" parent="1" name="borek_b">
+      <ObjectId>223</ObjectId>
+    </database>
+    <database id="213" parent="1" name="mmmiws_b">
+      <ObjectId>224</ObjectId>
+    </database>
+    <database id="214" parent="1" name="jaszczep_b">
+      <ObjectId>225</ObjectId>
+    </database>
+    <database id="215" parent="1" name="gmazur_b">
+      <ObjectId>226</ObjectId>
+    </database>
+    <database id="216" parent="1" name="rozikjoa_b">
+      <ObjectId>227</ObjectId>
+    </database>
+    <database id="217" parent="1" name="joannap_b">
+      <ObjectId>228</ObjectId>
+    </database>
+    <database id="218" parent="1" name="arturpys_b">
+      <ObjectId>229</ObjectId>
+    </database>
+    <database id="219" parent="1" name="rm_shop">
+      <ObjectId>230</ObjectId>
+    </database>
+    <database id="220" parent="1" name="pmaczuga_a">
+      <ObjectId>231</ObjectId>
+    </database>
+    <database id="221" parent="1" name="jplewa_b">
+      <ObjectId>232</ObjectId>
+    </database>
+    <database id="222" parent="1" name="rm_test">
+      <ObjectId>233</ObjectId>
+    </database>
+    <database id="223" parent="1" name="aszaflar_a">
+      <ObjectId>234</ObjectId>
+    </database>
+    <database id="224" parent="1" name="flisiews">
+      <ObjectId>235</ObjectId>
+    </database>
+    <database id="225" parent="1" name="sbernal_a">
+      <ObjectId>236</ObjectId>
+    </database>
+    <database id="226" parent="1" name="jsroka_a">
+      <ObjectId>237</ObjectId>
+    </database>
+    <database id="227" parent="1" name="maknapik_a">
+      <ObjectId>238</ObjectId>
+    </database>
+    <database id="228" parent="1" name="mdlus_a">
+      <ObjectId>239</ObjectId>
+    </database>
+    <database id="229" parent="1" name="mwroblew_a">
+      <ObjectId>240</ObjectId>
+    </database>
+    <database id="230" parent="1" name="kradon_a">
+      <ObjectId>241</ObjectId>
+    </database>
+    <database id="231" parent="1" name="jstarz_a">
+      <ObjectId>242</ObjectId>
+    </database>
+    <database id="232" parent="1" name="pboszczy_a">
+      <ObjectId>243</ObjectId>
+    </database>
+    <database id="233" parent="1" name="pbartkow_a">
+      <ObjectId>244</ObjectId>
+    </database>
+    <database id="234" parent="1" name="psliz_a">
+      <ObjectId>245</ObjectId>
+    </database>
+    <database id="235" parent="1" name="ddyduch_a">
+      <ObjectId>246</ObjectId>
+    </database>
+    <database id="236" parent="1" name="pzalewsk_a">
+      <ObjectId>247</ObjectId>
+    </database>
+    <database id="237" parent="1" name="mzhyhall_a">
+      <ObjectId>248</ObjectId>
+    </database>
+    <database id="238" parent="1" name="tzdybel_a">
+      <ObjectId>249</ObjectId>
+    </database>
+    <database id="239" parent="1" name="maman_a">
+      <ObjectId>250</ObjectId>
+    </database>
+    <database id="240" parent="1" name="jczapiga_a">
+      <ObjectId>251</ObjectId>
+    </database>
+    <database id="241" parent="1" name="jbodera_a">
+      <ObjectId>252</ObjectId>
+    </database>
+    <database id="242" parent="1" name="ansoltys_a">
+      <ObjectId>253</ObjectId>
+    </database>
+    <database id="243" parent="1" name="psobczyk_a">
+      <ObjectId>254</ObjectId>
+    </database>
+    <database id="244" parent="1" name="bsofinsk_a">
+      <ObjectId>255</ObjectId>
+    </database>
+    <database id="245" parent="1" name="najdek_a">
+      <ObjectId>294</ObjectId>
+    </database>
+    <database id="246" parent="1" name="gwator_a">
+      <ObjectId>295</ObjectId>
+    </database>
+    <database id="247" parent="1" name="tbugajsk_a">
+      <ObjectId>296</ObjectId>
+    </database>
+    <database id="248" parent="1" name="jadach_a">
+      <ObjectId>297</ObjectId>
+    </database>
+    <database id="249" parent="1" name="jstarzyk_a">
+      <ObjectId>208</ObjectId>
+    </database>
+    <database id="250" parent="1" name="bpietrzy_a">
+      <ObjectId>209</ObjectId>
+    </database>
+    <database id="251" parent="1" name="jzur_a">
+      <ObjectId>210</ObjectId>
+    </database>
+    <database id="252" parent="1" name="plubczyn_a">
+      <ObjectId>211</ObjectId>
+    </database>
+    <database id="253" parent="1" name="rmucha_a">
+      <ObjectId>212</ObjectId>
+    </database>
+    <database id="254" parent="1" name="jchrzast_a">
+      <ObjectId>213</ObjectId>
+    </database>
+    <database id="255" parent="1" name="imrowiec_a">
+      <ObjectId>214</ObjectId>
+    </database>
+    <database id="256" parent="1" name="imrowiec_b">
+      <ObjectId>215</ObjectId>
+    </database>
+    <database id="257" parent="1" name="smoterjo_b">
+      <ObjectId>216</ObjectId>
+    </database>
+    <database id="258" parent="1" name="leniarte_b">
+      <ObjectId>217</ObjectId>
+    </database>
+    <database id="259" parent="1" name="jchrzast_b">
+      <ObjectId>218</ObjectId>
+    </database>
+    <database id="260" parent="1" name="dakowali_b">
+      <ObjectId>219</ObjectId>
+    </database>
+    <database id="261" parent="1" name="mraton_b">
+      <ObjectId>309</ObjectId>
+    </database>
+    <database id="262" parent="1" name="ewamaczk_b">
+      <ObjectId>342</ObjectId>
+    </database>
+    <database id="263" parent="1" name="pblaszcz_b">
+      <ObjectId>343</ObjectId>
+    </database>
+    <database id="264" parent="1" name="rstachur_a">
+      <ObjectId>344</ObjectId>
+    </database>
+    <database id="265" parent="1" name="jziarko_a">
+      <ObjectId>256</ObjectId>
+    </database>
+    <database id="266" parent="1" name="maciejku_b">
+      <ObjectId>257</ObjectId>
+    </database>
+    <schema id="267" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-01-24.09:32:04.240</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="268" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="269" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="270" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="271" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="272" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="273" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="274" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="275" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="276" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="277" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="278" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="279" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="280" parent="267" name="Clients">
+      <ObjectId>1733581214</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:05:56.577</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.23:58:25.910</ModifiedTimestamp>
+    </table>
+    <table id="281" parent="267" name="ConfDayReservations">
+      <ObjectId>1861581670</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:16.863</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:36:53.613</ModifiedTimestamp>
+    </table>
+    <table id="282" parent="267" name="ConferenceDays">
+      <ObjectId>114099447</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:10:39.277</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.15:03:26.620</ModifiedTimestamp>
+    </table>
+    <table id="283" parent="267" name="ConferenceParticipants">
+      <ObjectId>1026102696</ObjectId>
+      <CreatedTimestamp>2017-12-31.00:41:03.780</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:32:34.497</ModifiedTimestamp>
+    </table>
+    <table id="284" parent="267" name="Conferences">
+      <ObjectId>386100416</ObjectId>
+      <CreatedTimestamp>2017-12-30.19:00:31.097</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.00:02:14.903</ModifiedTimestamp>
+    </table>
+    <table id="285" parent="267" name="DayPrices">
+      <ObjectId>226099846</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:11:07.643</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.19:27:12.210</ModifiedTimestamp>
+    </table>
+    <table id="286" parent="267" name="GEN_Clients">
+      <ObjectId>2114106572</ObjectId>
+      <CreatedTimestamp>2018-01-19.17:21:42.670</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.17:21:42.670</ModifiedTimestamp>
+    </table>
+    <table id="287" parent="267" name="GEN_Conferences">
+      <ObjectId>62623266</ObjectId>
+      <CreatedTimestamp>2018-01-19.18:23:01.717</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.18:23:01.717</ModifiedTimestamp>
+    </table>
+    <table id="288" parent="267" name="GEN_Names">
+      <ObjectId>2082106458</ObjectId>
+      <CreatedTimestamp>2018-01-19.16:55:18.800</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.16:55:18.800</ModifiedTimestamp>
+    </table>
+    <table id="289" parent="267" name="GEN_Participants">
+      <ObjectId>286624064</ObjectId>
+      <CreatedTimestamp>2018-01-20.17:53:19.073</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.17:53:19.073</ModifiedTimestamp>
+    </table>
+    <table id="290" parent="267" name="GEN_Workshops">
+      <ObjectId>94623380</ObjectId>
+      <CreatedTimestamp>2018-01-19.20:00:32.900</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.20:00:32.900</ModifiedTimestamp>
+    </table>
+    <table id="291" parent="267" name="Participants">
+      <ObjectId>66099276</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:09:39.080</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.00:04:03.583</ModifiedTimestamp>
+    </table>
+    <table id="292" parent="267" name="Payments">
+      <ObjectId>1669580986</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:05:11.130</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.13:01:59.047</ModifiedTimestamp>
+    </table>
+    <table id="293" parent="267" name="Reservations">
+      <ObjectId>1781581385</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:06:29.143</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.00:11:59.213</ModifiedTimestamp>
+    </table>
+    <table id="294" parent="267" name="WorkshopParticipants">
+      <ObjectId>302624121</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:32:34.490</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.05:01:44.553</ModifiedTimestamp>
+    </table>
+    <table id="295" parent="267" name="WorkshopReservations">
+      <ObjectId>1989582126</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:49.657</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:32:34.497</ModifiedTimestamp>
+    </table>
+    <table id="296" parent="267" name="Workshops">
+      <ObjectId>2085582468</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:08:50.043</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:31:39.880</ModifiedTimestamp>
+    </table>
+    <table id="297" parent="267" name="sysdiagrams">
+      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:03.987</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.987</ModifiedTimestamp>
+    </table>
+    <view id="298" parent="267" name="VI_AvailableConfDays">
+      <ObjectId>1554104577</ObjectId>
+      <CreatedTimestamp>2018-01-17.13:41:48.623</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.20:44:36.177</ModifiedTimestamp>
+    </view>
+    <view id="299" parent="267" name="VI_AvailableConferences">
+      <ObjectId>510624862</ObjectId>
+      <CreatedTimestamp>2018-01-20.23:08:30.130</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.23:09:18.213</ModifiedTimestamp>
+    </view>
+    <view id="300" parent="267" name="VI_AvailableWorkshops">
+      <ObjectId>1666104976</ObjectId>
+      <CreatedTimestamp>2018-01-17.14:20:08.237</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.20:51:24.607</ModifiedTimestamp>
+    </view>
+    <view id="301" parent="267" name="VI_CancelledReservations">
+      <ObjectId>1826105546</ObjectId>
+      <CreatedTimestamp>2018-01-18.12:08:29.390</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-18.12:08:29.390</ModifiedTimestamp>
+    </view>
+    <view id="302" parent="267" name="VI_ClientDetails">
+      <ObjectId>1874105717</ObjectId>
+      <CreatedTimestamp>2018-01-18.12:39:27.303</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-18.12:39:27.303</ModifiedTimestamp>
+    </view>
+    <view id="303" parent="267" name="VI_ConfDayRanking">
+      <ObjectId>1714105147</ObjectId>
+      <CreatedTimestamp>2018-01-17.15:04:14.057</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.21:45:14.420</ModifiedTimestamp>
+    </view>
+    <view id="304" parent="267" name="VI_ConferenceDayPlaces">
+      <ObjectId>1538104520</ObjectId>
+      <CreatedTimestamp>2018-01-17.13:27:18.200</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.23:02:03.853</ModifiedTimestamp>
+    </view>
+    <view id="305" parent="267" name="VI_FullyPaidReservations">
+      <ObjectId>1778105375</ObjectId>
+      <CreatedTimestamp>2018-01-18.11:52:23.840</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.01:21:39.380</ModifiedTimestamp>
+    </view>
+    <view id="306" parent="267" name="VI_OverpaidReservations">
+      <ObjectId>1794105432</ObjectId>
+      <CreatedTimestamp>2018-01-18.12:00:44.660</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.01:20:29.183</ModifiedTimestamp>
+    </view>
+    <view id="307" parent="267" name="VI_UncompletedConfDayReservations">
+      <ObjectId>542624976</ObjectId>
+      <CreatedTimestamp>2018-01-20.23:20:10.663</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.04:15:25.013</ModifiedTimestamp>
+    </view>
+    <view id="308" parent="267" name="VI_UncompletedReservations">
+      <ObjectId>590625147</ObjectId>
+      <CreatedTimestamp>2018-01-20.23:30:31.470</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.23:33:52.113</ModifiedTimestamp>
+    </view>
+    <view id="309" parent="267" name="VI_UncompletedWorkshopReservations">
+      <ObjectId>558625033</ObjectId>
+      <CreatedTimestamp>2018-01-20.23:22:12.397</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.05:34:53.893</ModifiedTimestamp>
+    </view>
+    <view id="310" parent="267" name="VI_UnderpaidReservations">
+      <ObjectId>1810105489</ObjectId>
+      <CreatedTimestamp>2018-01-18.12:00:57.070</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.01:19:28.237</ModifiedTimestamp>
+    </view>
+    <view id="311" parent="267" name="VI_WorkshopPlaces">
+      <ObjectId>1650104919</ObjectId>
+      <CreatedTimestamp>2018-01-17.14:14:59.433</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.14:14:59.433</ModifiedTimestamp>
+    </view>
+    <view id="312" parent="267" name="VI_WorkshopRanking">
+      <ObjectId>1682105033</ObjectId>
+      <CreatedTimestamp>2018-01-17.15:02:24.120</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.21:44:10.580</ModifiedTimestamp>
+    </view>
+    <routine id="313" parent="267" name="FN_AnyWorkshopsColliding">
+      <ObjectId>206623779</ObjectId>
+      <CreatedTimestamp>2018-01-20.13:24:48.347</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.04:59:33.850</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="314" parent="267" name="FN_GenerateConferenceDayList">
+      <ObjectId>1970106059</ObjectId>
+      <CreatedTimestamp>2018-01-19.15:31:23.010</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.20:15:11.170</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>tab-fun</RoutineType>
+    </routine>
+    <routine id="315" parent="267" name="FN_GenerateWorkshopsList">
+      <ObjectId>2130106629</ObjectId>
+      <CreatedTimestamp>2018-01-19.17:22:01.533</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.17:22:01.533</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>tab-fun</RoutineType>
+    </routine>
+    <routine id="316" parent="267" name="FN_GetAllParticipantWorkshops">
+      <ObjectId>750625717</ObjectId>
+      <CreatedTimestamp>2018-01-21.04:23:42.930</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.04:41:06.240</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>tab-fun</RoutineType>
+    </routine>
+    <routine id="317" parent="267" name="FN_GetConfDayBookedPlaces">
+      <ObjectId>1122103038</ObjectId>
+      <CreatedTimestamp>2018-01-02.18:09:59.810</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:21:37.580</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="318" parent="267" name="FN_GetConfDayFreePlaces">
+      <ObjectId>1154103152</ObjectId>
+      <CreatedTimestamp>2018-01-02.18:19:46.590</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:16:33</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="319" parent="267" name="FN_GetConfDayReservationPrice">
+      <ObjectId>1602104748</ObjectId>
+      <CreatedTimestamp>2018-01-17.14:02:36.890</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.14:02:36.890</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="320" parent="267" name="FN_GetConfDayReservationSignedParticipantsNumber">
+      <ObjectId>1506104406</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:16:24.880</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:16:24.880</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="321" parent="267" name="FN_GetConfDayReservationSignedStudentsNumber">
+      <ObjectId>1490104349</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:15:45.787</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:15:45.787</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="322" parent="267" name="FN_GetConferenceStartDate">
+      <ObjectId>786101841</ObjectId>
+      <CreatedTimestamp>2017-12-30.22:05:56.880</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.22:05:56.880</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="323" parent="267" name="FN_GetProperDayPriceID">
+      <ObjectId>850102069</ObjectId>
+      <CreatedTimestamp>2017-12-30.22:44:11.417</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.22:44:11.417</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="324" parent="267" name="FN_GetReservationAlreadyPaidAmmount">
+      <ObjectId>1890105774</ObjectId>
+      <CreatedTimestamp>2018-01-19.13:03:44.073</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.13:03:44.073</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="325" parent="267" name="FN_GetReservationTotalPrice">
+      <ObjectId>1634104862</ObjectId>
+      <CreatedTimestamp>2018-01-17.14:14:35.960</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.03:48:47.647</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="326" parent="267" name="FN_GetWorkshopBookedPlaces">
+      <ObjectId>1186103266</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:01:25.357</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:22:03.143</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="327" parent="267" name="FN_GetWorkshopFreePlaces">
+      <ObjectId>1202103323</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:02:39.463</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:19:07.210</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="328" parent="267" name="FN_GetWorkshopReservationPrice">
+      <ObjectId>1618104805</ObjectId>
+      <CreatedTimestamp>2018-01-17.14:06:54.550</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.14:06:54.550</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="329" parent="267" name="FN_GetWorkshopReservationSignedParticipantsNumber">
+      <ObjectId>398624463</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:43:55.303</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:43:55.303</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="330" parent="267" name="FN_ParticipantWorkshopsColliding">
+      <ObjectId>766625774</ObjectId>
+      <CreatedTimestamp>2018-01-21.04:53:05.967</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.04:54:11.077</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="331" parent="267" name="FN_WorkshopsColliding">
+      <ObjectId>126623494</ObjectId>
+      <CreatedTimestamp>2018-01-20.12:27:10.530</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.12:27:10.530</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="332" parent="267" name="GEN_FN_GetRandomPesel">
+      <ObjectId>1986106116</ObjectId>
+      <CreatedTimestamp>2018-01-19.15:43:07.020</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.16:08:38.980</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="333" parent="267" name="PR_AddClient">
+      <ObjectId>450100644</ObjectId>
+      <CreatedTimestamp>2017-12-30.19:28:21.227</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:44:57.640</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="334" parent="267" name="PR_AddConfDayReservation">
+      <ObjectId>530100929</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:17:22.793</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.12:14:56.860</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="335" parent="267" name="PR_AddConference">
+      <ObjectId>370100359</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:17:55.670</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:44:21.377</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="336" parent="267" name="PR_AddConferenceDay">
+      <ObjectId>594101157</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:28:00.120</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.20:28:00.120</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="337" parent="267" name="PR_AddConferenceParticipant">
+      <ObjectId>626101271</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:35:55.153</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:44:08.473</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="338" parent="267" name="PR_AddDayPrice">
+      <ObjectId>610101214</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:31:53.027</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.22:30:24.580</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="339" parent="267" name="PR_AddParticipant">
+      <ObjectId>546100986</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:19:28.290</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:43:54.520</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="340" parent="267" name="PR_AddPayments">
+      <ObjectId>466100701</ObjectId>
+      <CreatedTimestamp>2017-12-30.19:46:56.173</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.20:02:17.663</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="341" parent="267" name="PR_AddReservation">
+      <ObjectId>482100758</ObjectId>
+      <CreatedTimestamp>2017-12-30.19:51:56.870</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.19:54:46.127</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="342" parent="267" name="PR_AddWorkshop">
+      <ObjectId>562101043</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:23:35.230</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:42:29.057</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="343" parent="267" name="PR_AddWorkshopParticipant">
+      <ObjectId>414624520</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:44:01.360</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:53:23.587</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="344" parent="267" name="PR_AddWorkshopReservation">
+      <ObjectId>514100872</ObjectId>
+      <CreatedTimestamp>2017-12-30.20:13:01.840</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.16:10:06.560</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="345" parent="267" name="PR_CancelConfDayReservation">
+      <ObjectId>1362103893</ObjectId>
+      <CreatedTimestamp>2018-01-02.22:24:56.680</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.22:24:56.680</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="346" parent="267" name="PR_CancelReservation">
+      <ObjectId>1378103950</ObjectId>
+      <CreatedTimestamp>2018-01-02.22:25:50.927</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:10:02.390</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="347" parent="267" name="PR_CancelUnpaidOnTimeReservations">
+      <ObjectId>718625603</ObjectId>
+      <CreatedTimestamp>2018-01-21.02:11:18.187</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.05:56:19.627</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="348" parent="267" name="PR_CancelWorkshopReservation">
+      <ObjectId>1394104007</ObjectId>
+      <CreatedTimestamp>2018-01-02.22:29:09.363</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.22:29:09.363</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="349" parent="267" name="PR_RemoveConfDayReservation">
+      <ObjectId>1250103494</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:09:24.117</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:07:25.677</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="350" parent="267" name="PR_RemoveConferenceParticipant">
+      <ObjectId>1282103608</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:23:17.707</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.19:23:17.707</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="351" parent="267" name="PR_RemoveReservation">
+      <ObjectId>1218103380</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:03:42.783</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.19:03:42.783</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="352" parent="267" name="PR_RemoveWorkshopParticipant">
+      <ObjectId>366624349</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:42:28.013</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:42:28.013</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="353" parent="267" name="PR_RemoveWorkshopReservation">
+      <ObjectId>1266103551</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:11:05.653</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.19:11:05.653</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="354" parent="267" name="PR_UpdateClientDetails">
+      <ObjectId>834102012</ObjectId>
+      <CreatedTimestamp>2017-12-30.22:33:38.013</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:44:43.920</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="355" parent="267" name="PR_UpdateConferenceDayDate">
+      <ObjectId>722101613</ObjectId>
+      <CreatedTimestamp>2017-12-30.21:17:35.917</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.21:17:35.917</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="356" parent="267" name="PR_UpdateConferenceDayMaxParticipantsNumber">
+      <ObjectId>754101727</ObjectId>
+      <CreatedTimestamp>2017-12-30.21:22:07.210</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.21:22:07.210</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="357" parent="267" name="PR_UpdateConferenceDetails">
+      <ObjectId>770101784</ObjectId>
+      <CreatedTimestamp>2017-12-30.22:02:31.700</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.19:41:58.407</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="358" parent="267" name="PR_UpdateDayPriceDetails">
+      <ObjectId>866102126</ObjectId>
+      <CreatedTimestamp>2017-12-30.22:48:42.740</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.22:48:42.740</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="359" parent="267" name="PR_UpdateWorkshopMaxParticipantsNumber">
+      <ObjectId>690101499</ObjectId>
+      <CreatedTimestamp>2017-12-30.21:07:36.500</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.21:07:36.500</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="360" parent="267" name="PR_UpdateWorkshopPrice">
+      <ObjectId>706101556</ObjectId>
+      <CreatedTimestamp>2017-12-30.21:09:39.190</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.21:09:39.190</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="361" parent="267" name="PR_UpdateWorkshopTime">
+      <ObjectId>674101442</ObjectId>
+      <CreatedTimestamp>2017-12-30.21:05:25.310</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.21:05:25.310</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="362" parent="267" name="fn_diagramobjects">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:04.007</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:04.007</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="363" parent="267" name="sp_alterdiagram">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:04</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:04</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="364" parent="267" name="sp_creatediagram">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:03.997</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.997</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="365" parent="267" name="sp_dropdiagram">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:04.003</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:04.003</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="366" parent="267" name="sp_helpdiagramdefinition">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:03.993</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.993</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="367" parent="267" name="sp_helpdiagrams">
+      <ObjectId>1301579675</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:03.990</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.990</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="368" parent="267" name="sp_renamediagram">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:04</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:04</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="369" parent="267" name="sp_upgraddiagrams">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:03.983</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.983</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="370" parent="280" name="ClientID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="371" parent="280" name="Country">
+      <Position>2</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <column id="372" parent="280" name="City">
+      <Position>3</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <column id="373" parent="280" name="Address">
+      <Position>4</Position>
+      <DataType>nvarchar(120)|0</DataType>
+    </column>
+    <column id="374" parent="280" name="PostalCode">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="375" parent="280" name="Phone">
+      <Position>6</Position>
+      <DataType>varchar(15)|0</DataType>
+    </column>
+    <column id="376" parent="280" name="IsCompany">
+      <Position>7</Position>
+      <DataType>bit|0</DataType>
+    </column>
+    <column id="377" parent="280" name="Name">
+      <Position>8</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="378" parent="280" name="PK__Payments__9B556A58A8DBBA58">
+      <Position>1</Position>
+      <ColNames>ClientID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="379" parent="280" name="Clients_ClientID_uindex">
+      <Position>2</Position>
+      <ColNames>ClientID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="380" parent="280" name="PK__Payments__9B556A58A8DBBA58">
+      <ObjectId>1749581271</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:05:57.023</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:05:57.023</ModifiedTimestamp>
+      <ColNames>ClientID</ColNames>
+      <UnderlyingIndexName>PK__Payments__9B556A58A8DBBA58</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="381" parent="281" name="ConfDayReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="382" parent="281" name="ReservationID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="383" parent="281" name="ConferenceDayID">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="384" parent="281" name="ParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="385" parent="281" name="StudentsNumber">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="386" parent="281" name="IsCancelled">
+      <Position>6</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="387" parent="281" name="PK__ConfDayR__61523CE5B6016876">
+      <Position>1</Position>
+      <ColNames>ConfDayReservationID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="388" parent="281" name="PK__ConfDayR__61523CE5B6016876">
+      <ObjectId>1877581727</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:17.410</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:17.410</ModifiedTimestamp>
+      <ColNames>ConfDayReservationID</ColNames>
+      <UnderlyingIndexName>PK__ConfDayR__61523CE5B6016876</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="389" parent="281" name="ReservationID_ReservationID__fk">
+      <ObjectId>1925581898</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:17.560</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:17.560</ModifiedTimestamp>
+      <ColNames>ReservationID</ColNames>
+      <RefTableId>1781581385</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Reservations</RefTableName>
+      <RefKeyName>PK__Reservat__B7EE5F04600864FE</RefKeyName>
+      <RefColNames>ReservationID</RefColNames>
+    </foreign-key>
+    <foreign-key id="390" parent="281" name="ConfDayReservations_ConferenceDays__fk">
+      <ObjectId>178099675</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:10:41.787</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:10:41.787</ModifiedTimestamp>
+      <ColNames>ConferenceDayID</ColNames>
+      <RefTableId>114099447</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ConferenceDays</RefTableName>
+      <RefKeyName>PK__Conferen__E57A64628B520B05</RefKeyName>
+      <RefColNames>ConferenceDayID</RefColNames>
+    </foreign-key>
+    <check id="391" parent="281" name="CK_ConfDayReservations_PositiveParticipantsNumber">
+      <ObjectId>1893581784</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:17.457</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:17.457</ModifiedTimestamp>
+      <ColNames>ParticipantsNumber</ColNames>
+      <Predicate>[ParticipantsNumber]&gt;0</Predicate>
+    </check>
+    <check id="392" parent="281" name="CK_ConfDayReservations_ProperStudentsNumber">
+      <ObjectId>1909581841</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:17.513</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:17.513</ModifiedTimestamp>
+      <Predicate>[StudentsNumber]&gt;=0 AND [StudentsNumber]&lt;=[ParticipantsNumber]</Predicate>
+    </check>
+    <trigger id="393" parent="281" name="TR_ConfDayReservations_NotEnoughPlaces">
+      <ObjectId>1170103209</ObjectId>
+      <CreatedTimestamp>2018-01-02.18:30:27.037</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:36:53.613</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="394" parent="282" name="ConferenceDayID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="395" parent="282" name="ConferenceID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="396" parent="282" name="Date">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="397" parent="282" name="MaxParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="398" parent="282" name="PK__Conferen__E57A64628B520B05">
+      <Position>1</Position>
+      <ColNames>ConferenceDayID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="399" parent="282" name="PK__Conferen__E57A64628B520B05">
+      <ObjectId>130099504</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:10:40.150</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:10:40.150</ModifiedTimestamp>
+      <ColNames>ConferenceDayID</ColNames>
+      <UnderlyingIndexName>PK__Conferen__E57A64628B520B05</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="400" parent="282" name="ConferenceDays_Conferences__fk">
+      <ObjectId>418100530</ObjectId>
+      <CreatedTimestamp>2017-12-30.19:00:31.923</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.19:00:31.923</ModifiedTimestamp>
+      <ColNames>ConferenceID</ColNames>
+      <RefTableId>386100416</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Conferences</RefTableName>
+      <RefKeyName>PK__Conferen__4A95EA939368B092</RefKeyName>
+      <RefColNames>ConferenceID</RefColNames>
+    </foreign-key>
+    <check id="401" parent="282" name="CK_ConferenceDays_PositiveParticipantsNumber">
+      <ObjectId>146099561</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:10:40.197</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:10:40.197</ModifiedTimestamp>
+      <ColNames>MaxParticipantsNumber</ColNames>
+      <Predicate>[MaxParticipantsNumber]&gt;0</Predicate>
+    </check>
+    <trigger id="402" parent="282" name="TR_ConferenceDays_CannotDecreasePlaces">
+      <ObjectId>270624007</ObjectId>
+      <CreatedTimestamp>2018-01-20.15:03:26.620</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.15:03:26.620</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="403" parent="282" name="TR_ConferenceDays_WorkshopsCollidingAfterUpdate">
+      <ObjectId>222623836</ObjectId>
+      <CreatedTimestamp>2018-01-20.13:31:15.370</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.13:34:03.113</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="404" parent="283" name="ConferenceParticipantID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="405" parent="283" name="ConfDayReservationID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="406" parent="283" name="ParticipantID">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="407" parent="283" name="StudentCardID">
+      <Position>4</Position>
+      <DataType>char(6)|0</DataType>
+    </column>
+    <index id="408" parent="283" name="PK__Conferen__2B5E41B0B91EDBD1">
+      <Position>1</Position>
+      <ColNames>ConferenceParticipantID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="409" parent="283" name="PK__Conferen__2B5E41B0B91EDBD1">
+      <ObjectId>1042102753</ObjectId>
+      <CreatedTimestamp>2017-12-31.00:41:04.150</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-31.00:41:04.150</ModifiedTimestamp>
+      <ColNames>ConferenceParticipantID</ColNames>
+      <UnderlyingIndexName>PK__Conferen__2B5E41B0B91EDBD1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="410" parent="283" name="ConferenceParticipants_ConfDayReservations__fk">
+      <ObjectId>1074102867</ObjectId>
+      <CreatedTimestamp>2017-12-31.00:41:04.233</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-31.00:41:04.233</ModifiedTimestamp>
+      <ColNames>ConfDayReservationID</ColNames>
+      <RefTableId>1861581670</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ConfDayReservations</RefTableName>
+      <RefKeyName>PK__ConfDayR__61523CE5B6016876</RefKeyName>
+      <RefColNames>ConfDayReservationID</RefColNames>
+    </foreign-key>
+    <foreign-key id="411" parent="283" name="ConferenceParticipants_Participants__fk">
+      <ObjectId>1058102810</ObjectId>
+      <CreatedTimestamp>2017-12-31.00:41:04.190</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-31.00:41:04.190</ModifiedTimestamp>
+      <ColNames>ParticipantID</ColNames>
+      <RefTableId>66099276</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Participants</RefTableName>
+      <RefKeyName>PK__Particip__7227997E8BB43A7E</RefKeyName>
+      <RefColNames>ParticipantID</RefColNames>
+    </foreign-key>
+    <trigger id="412" parent="283" name="TR_ConferenceParticipants_AlreadyRegistered">
+      <ObjectId>158623608</ObjectId>
+      <CreatedTimestamp>2018-01-20.12:40:20.263</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.12:40:20.263</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="413" parent="283" name="TR_ConferenceParticipants_CancelledReservation">
+      <ObjectId>1906105831</ObjectId>
+      <CreatedTimestamp>2018-01-19.13:11:11.437</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.13:41:07.610</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="414" parent="283" name="TR_ConferenceParticipants_NoMoreFreePlaces">
+      <ObjectId>1746105261</ObjectId>
+      <CreatedTimestamp>2018-01-17.17:01:55.250</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.13:05:29.643</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="415" parent="284" name="ConferenceID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="416" parent="284" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="417" parent="284" name="Acronym">
+      <Position>3</Position>
+      <DataType>nvarchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="418" parent="284" name="Country">
+      <Position>4</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="419" parent="284" name="City">
+      <Position>5</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="420" parent="284" name="Venue">
+      <Position>6</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="421" parent="284" name="PK__Conferen__4A95EA939368B092">
+      <Position>1</Position>
+      <ColNames>ConferenceID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="422" parent="284" name="PK__Conferen__4A95EA939368B092">
+      <ObjectId>402100473</ObjectId>
+      <CreatedTimestamp>2017-12-30.19:00:31.587</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.19:00:31.587</ModifiedTimestamp>
+      <ColNames>ConferenceID</ColNames>
+      <UnderlyingIndexName>PK__Conferen__4A95EA939368B092</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="423" parent="285" name="DayPriceID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="424" parent="285" name="ConferenceDayID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="425" parent="285" name="StartDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="426" parent="285" name="Price">
+      <Position>5</Position>
+      <DataType>money|0</DataType>
+    </column>
+    <column id="427" parent="285" name="StudentDiscount">
+      <Position>6</Position>
+      <DataType>decimal(3,2)|0</DataType>
+    </column>
+    <index id="428" parent="285" name="PK__DayPrice__ED8F267FEE031823">
+      <Position>1</Position>
+      <ColNames>DayPriceID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="429" parent="285" name="PK__DayPrice__ED8F267FEE031823">
+      <ObjectId>242099903</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:11:07.970</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:11:07.970</ModifiedTimestamp>
+      <ColNames>DayPriceID</ColNames>
+      <UnderlyingIndexName>PK__DayPrice__ED8F267FEE031823</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="430" parent="285" name="DayPrices_ConferenceDays__fk">
+      <ObjectId>306100131</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:11:08.160</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:11:08.160</ModifiedTimestamp>
+      <ColNames>ConferenceDayID</ColNames>
+      <RefTableId>114099447</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ConferenceDays</RefTableName>
+      <RefKeyName>PK__Conferen__E57A64628B520B05</RefKeyName>
+      <RefColNames>ConferenceDayID</RefColNames>
+    </foreign-key>
+    <check id="431" parent="285" name="CK_DayPrices_NonnegativePrice">
+      <ObjectId>258099960</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:11:08.013</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:11:08.013</ModifiedTimestamp>
+      <ColNames>Price</ColNames>
+      <Predicate>[Price]&gt;=0</Predicate>
+    </check>
+    <check id="432" parent="285" name="CK_DayPrices_ProperStudentDiscount">
+      <ObjectId>274100017</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:11:08.060</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:11:08.060</ModifiedTimestamp>
+      <ColNames>StudentDiscount</ColNames>
+      <Predicate>[StudentDiscount]&gt;=0 AND [StudentDiscount]&lt;=1</Predicate>
+    </check>
+    <trigger id="433" parent="285" name="TR_DayPrices_IllegalStartDate">
+      <ObjectId>1954106002</ObjectId>
+      <CreatedTimestamp>2018-01-19.13:31:26.030</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.13:31:26.030</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="434" parent="285" name="TR_DayPrices_RepeatedStartDate">
+      <ObjectId>1106102981</ObjectId>
+      <CreatedTimestamp>2018-01-02.17:45:51.683</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.19:27:12.210</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="435" parent="286" name="Country">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="436" parent="286" name="City">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="437" parent="286" name="Address">
+      <Position>3</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="438" parent="286" name="PostalCode">
+      <Position>4</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="439" parent="286" name="Phone">
+      <Position>5</Position>
+      <DataType>nvarchar(15)|0</DataType>
+    </column>
+    <column id="440" parent="286" name="IsCompany">
+      <Position>6</Position>
+      <DataType>bit|0</DataType>
+    </column>
+    <column id="441" parent="286" name="Name">
+      <Position>7</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="442" parent="287" name="Name1">
+      <Position>1</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="443" parent="287" name="Name2">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="444" parent="287" name="Country">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="445" parent="287" name="City">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="446" parent="287" name="Venue">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="447" parent="288" name="FirstName">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="448" parent="288" name="LastName1">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="449" parent="288" name="LastName2">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="450" parent="289" name="FirstName">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="451" parent="289" name="LastName1">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="452" parent="289" name="LastName2">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="453" parent="289" name="PESEL">
+      <Position>4</Position>
+      <DataType>char(11)|0</DataType>
+    </column>
+    <column id="454" parent="290" name="ID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>0</SequenceIdentity>
+    </column>
+    <column id="455" parent="290" name="Name1">
+      <Position>2</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="456" parent="290" name="Name2">
+      <Position>3</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="457" parent="290" name="Name3">
+      <Position>4</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="458" parent="291" name="ParticipantID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="459" parent="291" name="FirstName">
+      <Position>2</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="460" parent="291" name="LastName">
+      <Position>3</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="461" parent="291" name="PESEL">
+      <Position>4</Position>
+      <DataType>char(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="462" parent="291" name="PK__Particip__7227997E8BB43A7E">
+      <Position>1</Position>
+      <ColNames>ParticipantID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="463" parent="291" name="UQ_Participants_PESEL">
+      <Position>2</Position>
+      <ColNames>PESEL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="464" parent="291" name="PK__Particip__7227997E8BB43A7E">
+      <ObjectId>82099333</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:09:39.923</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:09:39.923</ModifiedTimestamp>
+      <ColNames>ParticipantID</ColNames>
+      <UnderlyingIndexName>PK__Particip__7227997E8BB43A7E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="465" parent="292" name="PaymentID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="466" parent="292" name="ReservationID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="467" parent="292" name="PaymentDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="468" parent="292" name="AmmountPaid">
+      <Position>4</Position>
+      <DataType>money|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="469" parent="292" name="PK__Particip__7227997E314D17B4">
+      <Position>1</Position>
+      <ColNames>PaymentID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="470" parent="292" name="PK__Particip__7227997E314D17B4">
+      <ObjectId>1685581043</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:05:11.580</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:05:11.580</ModifiedTimestamp>
+      <ColNames>PaymentID</ColNames>
+      <UnderlyingIndexName>PK__Particip__7227997E314D17B4</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="471" parent="292" name="Payments_Reservations__fk">
+      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:06:30.710</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:06:30.710</ModifiedTimestamp>
+      <ColNames>ReservationID</ColNames>
+      <RefTableId>1781581385</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Reservations</RefTableName>
+      <RefKeyName>PK__Reservat__B7EE5F04600864FE</RefKeyName>
+      <RefColNames>ReservationID</RefColNames>
+    </foreign-key>
+    <check id="472" parent="292" name="CK_Payments_PositiveAmmountPaid">
+      <ObjectId>1701581100</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:05:11.630</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:05:11.630</ModifiedTimestamp>
+      <ColNames>AmmountPaid</ColNames>
+      <Predicate>[AmmountPaid]&gt;0</Predicate>
+    </check>
+    <column id="473" parent="293" name="ReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="474" parent="293" name="ClientID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="475" parent="293" name="BookingDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="476" parent="293" name="IsCancelled">
+      <Position>4</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="477" parent="293" name="PK__Reservat__B7EE5F04600864FE">
+      <Position>1</Position>
+      <ColNames>ReservationID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="478" parent="293" name="Reservations_ReservationID_uindex">
+      <Position>2</Position>
+      <ColNames>ReservationID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="479" parent="293" name="PK__Reservat__B7EE5F04600864FE">
+      <ObjectId>1797581442</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:06:29.697</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:06:29.697</ModifiedTimestamp>
+      <ColNames>ReservationID</ColNames>
+      <UnderlyingIndexName>PK__Reservat__B7EE5F04600864FE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="480" parent="293" name="Reservations_Clients__fk">
+      <ObjectId>1813581499</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:06:29.783</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:06:29.783</ModifiedTimestamp>
+      <ColNames>ClientID</ColNames>
+      <RefTableId>1733581214</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Clients</RefTableName>
+      <RefKeyName>PK__Payments__9B556A58A8DBBA58</RefKeyName>
+      <RefColNames>ClientID</RefColNames>
+    </foreign-key>
+    <check id="481" parent="293" name="CK_Reservations_ValidBookingDate">
+      <ObjectId>110623437</ObjectId>
+      <CreatedTimestamp>2018-01-20.00:11:59.213</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.00:11:59.213</ModifiedTimestamp>
+      <ColNames>BookingDate</ColNames>
+      <Predicate>[BookingDate]&lt;=getdate()</Predicate>
+    </check>
+    <column id="482" parent="294" name="WorkshopReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="483" parent="294" name="ConferenceParticipantID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="484" parent="294" name="WorkshopParticipants_WorkshopReservations__fk">
+      <ObjectId>318624178</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:32:34.493</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:32:34.493</ModifiedTimestamp>
+      <ColNames>WorkshopReservationID</ColNames>
+      <RefTableId>1989582126</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>WorkshopReservations</RefTableName>
+      <RefKeyName>PK__Workshop__38E529656C927FC5</RefKeyName>
+      <RefColNames>WorkshopReservationID</RefColNames>
+    </foreign-key>
+    <foreign-key id="485" parent="294" name="WorkshopParticipants_ConferenceParticipants__fk">
+      <ObjectId>334624235</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:32:34.497</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:32:34.497</ModifiedTimestamp>
+      <ColNames>ConferenceParticipantID</ColNames>
+      <RefTableId>1026102696</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ConferenceParticipants</RefTableName>
+      <RefKeyName>PK__Conferen__2B5E41B0B91EDBD1</RefKeyName>
+      <RefColNames>ConferenceParticipantID</RefColNames>
+    </foreign-key>
+    <trigger id="486" parent="294" name="TR_WorkshopParticipants_CancelledReservation">
+      <ObjectId>350624292</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:34:29.287</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:34:29.287</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="487" parent="294" name="TR_WorkshopParticipants_CollidingWorkshops">
+      <ObjectId>782625831</ObjectId>
+      <CreatedTimestamp>2018-01-21.05:01:44.553</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-21.05:01:44.553</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="488" parent="294" name="TR_WorkshopParticipants_NoMoreFreePlaces">
+      <ObjectId>430624577</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:44:11.520</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:44:11.520</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="489" parent="294" name="TR_WorkshopParticipants_NotSignedForConfDay">
+      <ObjectId>446624634</ObjectId>
+      <CreatedTimestamp>2018-01-20.18:51:28.810</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.18:51:28.810</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="490" parent="295" name="WorkshopReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="491" parent="295" name="WorkshopID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="492" parent="295" name="ConfDayReservationID">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="493" parent="295" name="ParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="494" parent="295" name="IsCancelled">
+      <Position>6</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="495" parent="295" name="PK__Workshop__38E529656C927FC5">
+      <Position>1</Position>
+      <ColNames>WorkshopReservationID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="496" parent="295" name="PK__Workshop__38E529656C927FC5">
+      <ObjectId>2005582183</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:50.017</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:50.017</ModifiedTimestamp>
+      <ColNames>WorkshopReservationID</ColNames>
+      <UnderlyingIndexName>PK__Workshop__38E529656C927FC5</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="497" parent="295" name="WorkshopReservations_Workshops__fk">
+      <ObjectId>50099219</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:08:52.190</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:08:52.190</ModifiedTimestamp>
+      <ColNames>WorkshopID</ColNames>
+      <RefTableId>2085582468</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Workshops</RefTableName>
+      <RefKeyName>PK__Workshop__7A008C2A97FD2FD6</RefKeyName>
+      <RefColNames>WorkshopID</RefColNames>
+    </foreign-key>
+    <foreign-key id="498" parent="295" name="WorkshopReservations_ConfDayReservations__fk">
+      <ObjectId>2053582354</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:50.170</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:50.170</ModifiedTimestamp>
+      <ColNames>ConfDayReservationID</ColNames>
+      <RefTableId>1861581670</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ConfDayReservations</RefTableName>
+      <RefKeyName>PK__ConfDayR__61523CE5B6016876</RefKeyName>
+      <RefColNames>ConfDayReservationID</RefColNames>
+    </foreign-key>
+    <check id="499" parent="295" name="CK_WorkshopReservations_PositiveParticipantsNumber">
+      <ObjectId>2021582240</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:07:50.080</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:07:50.080</ModifiedTimestamp>
+      <ColNames>ParticipantsNumber</ColNames>
+      <Predicate>[ParticipantsNumber]&gt;0</Predicate>
+    </check>
+    <trigger id="500" parent="295" name="TR_WorkshopReservations_IllegalParticipantsNumber">
+      <ObjectId>1938105945</ObjectId>
+      <CreatedTimestamp>2018-01-19.13:27:54.913</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.13:27:54.913</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="501" parent="295" name="TR_WorkshopReservations_NotEnoughPlaces">
+      <ObjectId>1234103437</ObjectId>
+      <CreatedTimestamp>2018-01-02.19:08:38.503</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:38:42.843</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="502" parent="296" name="WorkshopID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="503" parent="296" name="ConferenceDayID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="504" parent="296" name="WorkshopName">
+      <Position>3</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="505" parent="296" name="StartTime">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="506" parent="296" name="EndTime">
+      <Position>5</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="507" parent="296" name="MaxParticipantsNumber">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="508" parent="296" name="Price">
+      <Position>7</Position>
+      <DataType>money|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="509" parent="296" name="PK__Workshop__7A008C2A97FD2FD6">
+      <Position>1</Position>
+      <ColNames>WorkshopID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="510" parent="296" name="PK__Workshop__7A008C2A97FD2FD6">
+      <ObjectId>2101582525</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:08:50.793</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:08:50.793</ModifiedTimestamp>
+      <ColNames>WorkshopID</ColNames>
+      <UnderlyingIndexName>PK__Workshop__7A008C2A97FD2FD6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="511" parent="296" name="Workshops_ConferenceDays__fk">
+      <ObjectId>194099732</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:10:42.717</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:10:42.717</ModifiedTimestamp>
+      <ColNames>ConferenceDayID</ColNames>
+      <RefTableId>114099447</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ConferenceDays</RefTableName>
+      <RefKeyName>PK__Conferen__E57A64628B520B05</RefKeyName>
+      <RefColNames>ConferenceDayID</RefColNames>
+    </foreign-key>
+    <check id="512" parent="296" name="CK_Workshops_PositiveParticipantsNumber">
+      <ObjectId>2117582582</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:08:50.837</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:08:50.837</ModifiedTimestamp>
+      <ColNames>MaxParticipantsNumber</ColNames>
+      <Predicate>[MaxParticipantsNumber]&gt;0</Predicate>
+    </check>
+    <check id="513" parent="296" name="CK_Workshops_NonnegativePrice">
+      <ObjectId>2133582639</ObjectId>
+      <CreatedTimestamp>2017-12-30.18:08:50.930</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.18:08:50.930</ModifiedTimestamp>
+      <ColNames>Price</ColNames>
+      <Predicate>[Price]&gt;=0</Predicate>
+    </check>
+    <check id="514" parent="296" name="CK_Workshops_ProperTimeRange">
+      <ObjectId>1442104178</ObjectId>
+      <CreatedTimestamp>2018-01-02.23:54:24.180</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-02.23:54:24.180</ModifiedTimestamp>
+      <Predicate>[EndTime]&gt;[StartTime]</Predicate>
+    </check>
+    <trigger id="515" parent="296" name="TR_Workshops_TooMuchParticipants">
+      <ObjectId>1522104463</ObjectId>
+      <CreatedTimestamp>2018-01-16.13:42:57.787</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.13:42:57.787</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="516" parent="296" name="TR_Workshops_CannotDecreasePlaces">
+      <ObjectId>254623950</ObjectId>
+      <CreatedTimestamp>2018-01-20.14:59:55.087</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.14:59:55.087</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="517" parent="296" name="TR_Workshops_WorkshopsCollidingAfterUpdate">
+      <ObjectId>238623893</ObjectId>
+      <CreatedTimestamp>2018-01-20.13:33:34.807</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-20.13:33:34.807</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="518" parent="297" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="519" parent="297" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="520" parent="297" name="diagram_id">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="521" parent="297" name="version">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="522" parent="297" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary(max)|0</DataType>
+    </column>
+    <index id="523" parent="297" name="PK__sysdiagr__C2B05B61DE4266A3">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="524" parent="297" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="525" parent="297" name="PK__sysdiagr__C2B05B61DE4266A3">
+      <ObjectId>1269579561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-30.16:22:03.990</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.990</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B61DE4266A3</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="526" parent="297" name="UK_principal_name">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2017-12-30.16:22:03.990</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-30.16:22:03.990</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <column id="527" parent="298" name="ConferenceDayID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="528" parent="298" name="ConferenceID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="529" parent="298" name="Date">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="530" parent="298" name="MaxParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="531" parent="299" name="ConferenceID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="532" parent="299" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="533" parent="299" name="Acronym">
+      <Position>3</Position>
+      <DataType>nvarchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="534" parent="299" name="Country">
+      <Position>4</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="535" parent="299" name="City">
+      <Position>5</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="536" parent="299" name="Venue">
+      <Position>6</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="537" parent="299" name="ConferenceStartDate">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="538" parent="299" name="FreePlaces">
+      <Position>8</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="539" parent="300" name="WorkshopID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="540" parent="300" name="ConferenceDayID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="541" parent="300" name="WorkshopName">
+      <Position>3</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="542" parent="300" name="StartTime">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="543" parent="300" name="EndTime">
+      <Position>5</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="544" parent="300" name="MaxParticipantsNumber">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="545" parent="300" name="Price">
+      <Position>7</Position>
+      <DataType>money|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="546" parent="301" name="ReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="547" parent="301" name="ClientID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="548" parent="301" name="BookingDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="549" parent="301" name="IsCancelled">
+      <Position>4</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="550" parent="302" name="ClientID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="551" parent="302" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="552" parent="302" name="Country">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="553" parent="302" name="City">
+      <Position>4</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="554" parent="302" name="PostalCode">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="555" parent="302" name="Address">
+      <Position>6</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="556" parent="302" name="Phone">
+      <Position>7</Position>
+      <DataType>varchar(15)|0</DataType>
+    </column>
+    <column id="557" parent="302" name="Type">
+      <Position>8</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="558" parent="303" name="ConferenceDayID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="559" parent="303" name="ConferenceID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="560" parent="303" name="Date">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="561" parent="303" name="MaxParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="562" parent="303" name="Interest">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="563" parent="304" name="ConferenceID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="564" parent="304" name="ConferenceDayID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="565" parent="304" name="Date">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="566" parent="304" name="NumberOfPlaces">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="567" parent="304" name="NumberOfBookedPlaces">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="568" parent="304" name="NumberOfFreePlaces">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="569" parent="305" name="ReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="570" parent="305" name="ClientID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="571" parent="305" name="BookingDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="572" parent="305" name="IsCancelled">
+      <Position>4</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="573" parent="306" name="ReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="574" parent="306" name="ClientID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="575" parent="306" name="BookingDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="576" parent="306" name="IsCancelled">
+      <Position>4</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="577" parent="307" name="ConfDayReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="578" parent="307" name="ReservationID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="579" parent="307" name="ConferenceDayID">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="580" parent="307" name="ParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="581" parent="307" name="StudentsNumber">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="582" parent="307" name="IsCancelled">
+      <Position>6</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="583" parent="307" name="NumberOfSignedParticipants">
+      <Position>7</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="584" parent="308" name="ReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="585" parent="308" name="ClientID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="586" parent="308" name="BookingDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="587" parent="308" name="IsCancelled">
+      <Position>4</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="588" parent="308" name="Cause">
+      <Position>5</Position>
+      <DataType>varchar(13)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="589" parent="309" name="WorkshopReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="590" parent="309" name="WorkshopID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="591" parent="309" name="ConfDayReservationID">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="592" parent="309" name="ParticipantsNumber">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="593" parent="309" name="IsCancelled">
+      <Position>5</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="594" parent="309" name="MissingParticipants">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="595" parent="310" name="ReservationID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="596" parent="310" name="ClientID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="597" parent="310" name="BookingDate">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="598" parent="310" name="IsCancelled">
+      <Position>4</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="599" parent="311" name="WorkshopID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="600" parent="311" name="StartTime">
+      <Position>2</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="601" parent="311" name="EndTime">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="602" parent="311" name="NumberOfPlaces">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="603" parent="311" name="NumberOfBookedPlaces">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="604" parent="311" name="NumberOfFreePlaces">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="605" parent="312" name="WorkshopID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="606" parent="312" name="ConferenceDayID">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="607" parent="312" name="WorkshopName">
+      <Position>3</Position>
+      <DataType>nvarchar(120)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="608" parent="312" name="StartTime">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="609" parent="312" name="EndTime">
+      <Position>5</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="610" parent="312" name="MaxParticipantsNumber">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="611" parent="312" name="Price">
+      <Position>7</Position>
+      <DataType>money|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="612" parent="312" name="Interest">
+      <Position>8</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <argument id="613" parent="313">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>bit|0</DataType>
+    </argument>
+    <argument id="614" parent="314" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="615" parent="315" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="616" parent="316" name="@ParticipantID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="617" parent="317">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="618" parent="317" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="619" parent="318">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="620" parent="318" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="621" parent="319">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="622" parent="319" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="623" parent="320">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="624" parent="320" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="625" parent="321">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="626" parent="321" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="627" parent="322">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="628" parent="322" name="@ConferenceID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="629" parent="323">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="630" parent="323" name="@Date">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="631" parent="323" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="632" parent="324">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="633" parent="324" name="@ReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="634" parent="325">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="635" parent="325" name="@ReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="636" parent="326">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="637" parent="326" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="638" parent="327">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="639" parent="327" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="640" parent="328">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="641" parent="328" name="@WorkshopReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="642" parent="329">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="643" parent="329" name="@WorkshopReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="644" parent="330">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>bit|0</DataType>
+    </argument>
+    <argument id="645" parent="330" name="@ParticipantID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="646" parent="331">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>bit|0</DataType>
+    </argument>
+    <argument id="647" parent="331" name="@workshop1ID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="648" parent="331" name="@workshop2ID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="649" parent="332">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>char(11)|0</DataType>
+    </argument>
+    <argument id="650" parent="332" name="@randomFloat">
+      <DataType>float|0</DataType>
+    </argument>
+    <argument id="651" parent="333" name="@Country">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="652" parent="333" name="@City">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="653" parent="333" name="@Address">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="654" parent="333" name="@PostalCode">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="655" parent="333" name="@Phone">
+      <DataType>varchar(15)|0</DataType>
+    </argument>
+    <argument id="656" parent="333" name="@Name">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="657" parent="333" name="@IsCompany">
+      <DataType>bit|0</DataType>
+    </argument>
+    <argument id="658" parent="334" name="@ReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="659" parent="334" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="660" parent="334" name="@ParticipantsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="661" parent="334" name="@StudentsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="662" parent="335" name="@Country">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="663" parent="335" name="@City">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="664" parent="335" name="@Venue">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="665" parent="335" name="@Name">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="666" parent="335" name="@Acronym">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="667" parent="336" name="@ConferenceID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="668" parent="336" name="@Date">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="669" parent="336" name="@MaxParticipantsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="670" parent="337" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="671" parent="337" name="@ParticipantID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="672" parent="337" name="@StudentCardID">
+      <DataType>char(6)|0</DataType>
+    </argument>
+    <argument id="673" parent="338" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="674" parent="338" name="@StartDate">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="675" parent="338" name="@Price">
+      <DataType>money|0</DataType>
+    </argument>
+    <argument id="676" parent="338" name="@StudentDiscount">
+      <DataType>decimal(3,2)|0</DataType>
+    </argument>
+    <argument id="677" parent="339" name="@FirstName">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="678" parent="339" name="@LastName">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="679" parent="339" name="@PESEL">
+      <DataType>char(11)|0</DataType>
+    </argument>
+    <argument id="680" parent="340" name="@ReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="681" parent="340" name="@PaymentDate">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="682" parent="340" name="@AmmountPaid">
+      <DataType>money|0</DataType>
+    </argument>
+    <argument id="683" parent="341" name="@ClientID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="684" parent="341" name="@BookingDate">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="685" parent="342" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="686" parent="342" name="@WorkshopName">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="687" parent="342" name="@StartTime">
+      <DataType>time|0</DataType>
+    </argument>
+    <argument id="688" parent="342" name="@EndTime">
+      <DataType>time|0</DataType>
+    </argument>
+    <argument id="689" parent="342" name="@MaxParticipantsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="690" parent="342" name="@Price">
+      <DataType>money|0</DataType>
+    </argument>
+    <argument id="691" parent="343" name="@WorkshopReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="692" parent="343" name="@ConferenceParticipantID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="693" parent="344" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="694" parent="344" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="695" parent="344" name="@ParticipantsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="696" parent="345" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="697" parent="346" name="@ReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="698" parent="348" name="@WorkshopReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="699" parent="349" name="@ConfDayReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="700" parent="350" name="@ConferenceParticipantID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="701" parent="351" name="@ReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="702" parent="352" name="@ConferenceParticipantID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="703" parent="352" name="@WorkshopReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="704" parent="353" name="@WorkshopReservationID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="705" parent="354" name="@ClientID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="706" parent="354" name="@Country">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="707" parent="354" name="@City">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="708" parent="354" name="@Address">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="709" parent="354" name="@PostalCode">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="710" parent="354" name="@Phone">
+      <DataType>varchar(15)|0</DataType>
+    </argument>
+    <argument id="711" parent="354" name="@IsCompany">
+      <DataType>bit|0</DataType>
+    </argument>
+    <argument id="712" parent="355" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="713" parent="355" name="@Date">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="714" parent="356" name="@ConferenceDayID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="715" parent="356" name="@MaxParticipantsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="716" parent="357" name="@ConferenceID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="717" parent="357" name="@Name">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="718" parent="357" name="@Acronym">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="719" parent="357" name="@Country">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="720" parent="357" name="@City">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="721" parent="357" name="@Venue">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="722" parent="358" name="@DayPriceID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="723" parent="358" name="@StartDate">
+      <DataType>date|0</DataType>
+    </argument>
+    <argument id="724" parent="358" name="@Price">
+      <DataType>money|0</DataType>
+    </argument>
+    <argument id="725" parent="358" name="@StudentDiscount">
+      <DataType>decimal(3,2)|0</DataType>
+    </argument>
+    <argument id="726" parent="359" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="727" parent="359" name="@MaxParticipantsNumber">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="728" parent="360" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="729" parent="360" name="@Price">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="730" parent="361" name="@WorkshopID">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="731" parent="361" name="@StartTime">
+      <DataType>time|0</DataType>
+    </argument>
+    <argument id="732" parent="361" name="@EndTime">
+      <DataType>time|0</DataType>
+    </argument>
+    <argument id="733" parent="362">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="734" parent="363" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="735" parent="363" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="736" parent="363" name="@version">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="737" parent="363" name="@definition">
+      <DataType>varbinary(max)|0</DataType>
+    </argument>
+    <argument id="738" parent="364" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="739" parent="364" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="740" parent="364" name="@version">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="741" parent="364" name="@definition">
+      <DataType>varbinary(max)|0</DataType>
+    </argument>
+    <argument id="742" parent="365" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="743" parent="365" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="744" parent="366" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="745" parent="366" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="746" parent="367" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="747" parent="367" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="748" parent="368" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="749" parent="368" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="750" parent="368" name="@new_diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>
